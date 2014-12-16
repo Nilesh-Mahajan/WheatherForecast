@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8413BF441A3F1CEA00FEE350 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8413BF411A3F1C9600FEE350 /* CoreLocation.framework */; };
+		8413BF481A3F227400FEE350 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8413BF471A3F227400FEE350 /* MBProgressHUD.m */; };
+		84A915AD1A3EB54E00F60C24 /* CityWhetherDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A915AC1A3EB54E00F60C24 /* CityWhetherDetail.m */; };
+		84AB45FA1A3B3562003F1D64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB45F91A3B3562003F1D64 /* main.m */; };
+		84AB45FD1A3B3562003F1D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB45FC1A3B3562003F1D64 /* AppDelegate.m */; };
+		84AB46001A3B3562003F1D64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB45FF1A3B3562003F1D64 /* ViewController.m */; };
+		84AB46031A3B3562003F1D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AB46011A3B3562003F1D64 /* Main.storyboard */; };
+		84AB46051A3B3562003F1D64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AB46041A3B3562003F1D64 /* Images.xcassets */; };
+		84AB46081A3B3562003F1D64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB46061A3B3562003F1D64 /* LaunchScreen.xib */; };
+		84AB46141A3B3562003F1D64 /* LeftShiftTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB46131A3B3562003F1D64 /* LeftShiftTaskTests.m */; };
+		84AB46201A3B3B66003F1D64 /* libRDServerHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AB461E1A3B3B66003F1D64 /* libRDServerHandler.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AB460E1A3B3562003F1D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AB45EC1A3B3562003F1D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AB45F31A3B3562003F1D64;
+			remoteInfo = LeftShiftTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8413BF411A3F1C9600FEE350 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8413BF461A3F227400FEE350 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8413BF471A3F227400FEE350 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		84A915AB1A3EB54E00F60C24 /* CityWhetherDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityWhetherDetail.h; sourceTree = "<group>"; };
+		84A915AC1A3EB54E00F60C24 /* CityWhetherDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityWhetherDetail.m; sourceTree = "<group>"; };
+		84AB45F41A3B3562003F1D64 /* WheatherForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AB45F81A3B3562003F1D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AB45F91A3B3562003F1D64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84AB45FB1A3B3562003F1D64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84AB45FC1A3B3562003F1D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84AB45FE1A3B3562003F1D64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84AB45FF1A3B3562003F1D64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84AB46021A3B3562003F1D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AB46041A3B3562003F1D64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84AB46071A3B3562003F1D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84AB460D1A3B3562003F1D64 /* WheatherForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherForecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AB46121A3B3562003F1D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AB46131A3B3562003F1D64 /* LeftShiftTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftShiftTaskTests.m; sourceTree = "<group>"; };
+		84AB461E1A3B3B66003F1D64 /* libRDServerHandler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRDServerHandler.a; sourceTree = "<group>"; };
+		84AB461F1A3B3B66003F1D64 /* RDServerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDServerHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AB45F11A3B3562003F1D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8413BF441A3F1CEA00FEE350 /* CoreLocation.framework in Frameworks */,
+				84AB46201A3B3B66003F1D64 /* libRDServerHandler.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AB460A1A3B3562003F1D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8413BF431A3F1CA000FEE350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8413BF411A3F1C9600FEE350 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8413BF451A3F227400FEE350 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8413BF461A3F227400FEE350 /* MBProgressHUD.h */,
+				8413BF471A3F227400FEE350 /* MBProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		84AB45EB1A3B3562003F1D64 = {
+			isa = PBXGroup;
+			children = (
+				84AB45F61A3B3562003F1D64 /* WheatherForecast */,
+				84AB46101A3B3562003F1D64 /* WheatherForecastTests */,
+				84AB45F51A3B3562003F1D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AB45F51A3B3562003F1D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AB45F41A3B3562003F1D64 /* WheatherForecast.app */,
+				84AB460D1A3B3562003F1D64 /* WheatherForecastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AB45F61A3B3562003F1D64 /* WheatherForecast */ = {
+			isa = PBXGroup;
+			children = (
+				8413BF451A3F227400FEE350 /* ProgressHUD */,
+				84AB461D1A3B3B66003F1D64 /* RDServerHandlerLib */,
+				84AB45FB1A3B3562003F1D64 /* AppDelegate.h */,
+				84AB45FC1A3B3562003F1D64 /* AppDelegate.m */,
+				84AB45FE1A3B3562003F1D64 /* ViewController.h */,
+				84AB45FF1A3B3562003F1D64 /* ViewController.m */,
+				84A915AB1A3EB54E00F60C24 /* CityWhetherDetail.h */,
+				84A915AC1A3EB54E00F60C24 /* CityWhetherDetail.m */,
+				84AB46011A3B3562003F1D64 /* Main.storyboard */,
+				84AB46041A3B3562003F1D64 /* Images.xcassets */,
+				84AB46061A3B3562003F1D64 /* LaunchScreen.xib */,
+				84AB45F71A3B3562003F1D64 /* Supporting Files */,
+			);
+			name = WheatherForecast;
+			path = LeftShiftTask;
+			sourceTree = "<group>";
+		};
+		84AB45F71A3B3562003F1D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8413BF431A3F1CA000FEE350 /* Frameworks */,
+				84AB45F81A3B3562003F1D64 /* Info.plist */,
+				84AB45F91A3B3562003F1D64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AB46101A3B3562003F1D64 /* WheatherForecastTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AB46131A3B3562003F1D64 /* LeftShiftTaskTests.m */,
+				84AB46111A3B3562003F1D64 /* Supporting Files */,
+			);
+			name = WheatherForecastTests;
+			path = LeftShiftTaskTests;
+			sourceTree = "<group>";
+		};
+		84AB46111A3B3562003F1D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AB46121A3B3562003F1D64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AB461D1A3B3B66003F1D64 /* RDServerHandlerLib */ = {
+			isa = PBXGroup;
+			children = (
+				84AB461E1A3B3B66003F1D64 /* libRDServerHandler.a */,
+				84AB461F1A3B3B66003F1D64 /* RDServerHandler.h */,
+			);
+			path = RDServerHandlerLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AB45F31A3B3562003F1D64 /* WheatherForecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AB46171A3B3562003F1D64 /* Build configuration list for PBXNativeTarget "WheatherForecast" */;
+			buildPhases = (
+				84AB45F01A3B3562003F1D64 /* Sources */,
+				84AB45F11A3B3562003F1D64 /* Frameworks */,
+				84AB45F21A3B3562003F1D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheatherForecast;
+			productName = LeftShiftTask;
+			productReference = 84AB45F41A3B3562003F1D64 /* WheatherForecast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AB460C1A3B3562003F1D64 /* WheatherForecastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AB461A1A3B3562003F1D64 /* Build configuration list for PBXNativeTarget "WheatherForecastTests" */;
+			buildPhases = (
+				84AB46091A3B3562003F1D64 /* Sources */,
+				84AB460A1A3B3562003F1D64 /* Frameworks */,
+				84AB460B1A3B3562003F1D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AB460F1A3B3562003F1D64 /* PBXTargetDependency */,
+			);
+			name = WheatherForecastTests;
+			productName = LeftShiftTaskTests;
+			productReference = 84AB460D1A3B3562003F1D64 /* WheatherForecastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AB45EC1A3B3562003F1D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sci;
+				TargetAttributes = {
+					84AB45F31A3B3562003F1D64 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					84AB460C1A3B3562003F1D64 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 84AB45F31A3B3562003F1D64;
+					};
+				};
+			};
+			buildConfigurationList = 84AB45EF1A3B3562003F1D64 /* Build configuration list for PBXProject "WheatherForecast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AB45EB1A3B3562003F1D64;
+			productRefGroup = 84AB45F51A3B3562003F1D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AB45F31A3B3562003F1D64 /* WheatherForecast */,
+				84AB460C1A3B3562003F1D64 /* WheatherForecastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AB45F21A3B3562003F1D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AB46031A3B3562003F1D64 /* Main.storyboard in Resources */,
+				84AB46081A3B3562003F1D64 /* LaunchScreen.xib in Resources */,
+				84AB46051A3B3562003F1D64 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AB460B1A3B3562003F1D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AB45F01A3B3562003F1D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AB46001A3B3562003F1D64 /* ViewController.m in Sources */,
+				84A915AD1A3EB54E00F60C24 /* CityWhetherDetail.m in Sources */,
+				8413BF481A3F227400FEE350 /* MBProgressHUD.m in Sources */,
+				84AB45FD1A3B3562003F1D64 /* AppDelegate.m in Sources */,
+				84AB45FA1A3B3562003F1D64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AB46091A3B3562003F1D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AB46141A3B3562003F1D64 /* LeftShiftTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AB460F1A3B3562003F1D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AB45F31A3B3562003F1D64 /* WheatherForecast */;
+			targetProxy = 84AB460E1A3B3562003F1D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AB46011A3B3562003F1D64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AB46021A3B3562003F1D64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AB46061A3B3562003F1D64 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AB46071A3B3562003F1D64 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AB46151A3B3562003F1D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84AB46161A3B3562003F1D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AB46181A3B3562003F1D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftShiftTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeftShiftTask/RDServerHandlerLib",
+				);
+				PRODUCT_NAME = WheatherForecast;
+			};
+			name = Debug;
+		};
+		84AB46191A3B3562003F1D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftShiftTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeftShiftTask/RDServerHandlerLib",
+				);
+				PRODUCT_NAME = WheatherForecast;
+			};
+			name = Release;
+		};
+		84AB461B1A3B3562003F1D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeftShiftTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WheatherForecastTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftShiftTask.app/LeftShiftTask";
+			};
+			name = Debug;
+		};
+		84AB461C1A3B3562003F1D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeftShiftTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WheatherForecastTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftShiftTask.app/LeftShiftTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AB45EF1A3B3562003F1D64 /* Build configuration list for PBXProject "WheatherForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AB46151A3B3562003F1D64 /* Debug */,
+				84AB46161A3B3562003F1D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AB46171A3B3562003F1D64 /* Build configuration list for PBXNativeTarget "WheatherForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AB46181A3B3562003F1D64 /* Debug */,
+				84AB46191A3B3562003F1D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AB461A1A3B3562003F1D64 /* Build configuration list for PBXNativeTarget "WheatherForecastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AB461B1A3B3562003F1D64 /* Debug */,
+				84AB461C1A3B3562003F1D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AB45EC1A3B3562003F1D64 /* Project object */;
+}
