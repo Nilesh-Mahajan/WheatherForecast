@@ -16,19 +16,8 @@
 		84AB46031A3B3562003F1D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AB46011A3B3562003F1D64 /* Main.storyboard */; };
 		84AB46051A3B3562003F1D64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AB46041A3B3562003F1D64 /* Images.xcassets */; };
 		84AB46081A3B3562003F1D64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB46061A3B3562003F1D64 /* LaunchScreen.xib */; };
-		84AB46141A3B3562003F1D64 /* LeftShiftTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB46131A3B3562003F1D64 /* LeftShiftTaskTests.m */; };
 		84AB46201A3B3B66003F1D64 /* libRDServerHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AB461E1A3B3B66003F1D64 /* libRDServerHandler.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		84AB460E1A3B3562003F1D64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84AB45EC1A3B3562003F1D64 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84AB45F31A3B3562003F1D64;
-			remoteInfo = LeftShiftTask;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8413BF411A3F1C9600FEE350 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -46,7 +35,6 @@
 		84AB46021A3B3562003F1D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84AB46041A3B3562003F1D64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84AB46071A3B3562003F1D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		84AB460D1A3B3562003F1D64 /* WheatherForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherForecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AB46121A3B3562003F1D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AB46131A3B3562003F1D64 /* LeftShiftTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftShiftTaskTests.m; sourceTree = "<group>"; };
 		84AB461E1A3B3B66003F1D64 /* libRDServerHandler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRDServerHandler.a; sourceTree = "<group>"; };
@@ -60,13 +48,6 @@
 			files = (
 				8413BF441A3F1CEA00FEE350 /* CoreLocation.framework in Frameworks */,
 				84AB46201A3B3B66003F1D64 /* libRDServerHandler.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84AB460A1A3B3562003F1D64 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				84AB45F41A3B3562003F1D64 /* WheatherForecast.app */,
-				84AB460D1A3B3562003F1D64 /* WheatherForecastTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,24 +165,6 @@
 			productReference = 84AB45F41A3B3562003F1D64 /* WheatherForecast.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84AB460C1A3B3562003F1D64 /* WheatherForecastTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84AB461A1A3B3562003F1D64 /* Build configuration list for PBXNativeTarget "WheatherForecastTests" */;
-			buildPhases = (
-				84AB46091A3B3562003F1D64 /* Sources */,
-				84AB460A1A3B3562003F1D64 /* Frameworks */,
-				84AB460B1A3B3562003F1D64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84AB460F1A3B3562003F1D64 /* PBXTargetDependency */,
-			);
-			name = WheatherForecastTests;
-			productName = LeftShiftTaskTests;
-			productReference = 84AB460D1A3B3562003F1D64 /* WheatherForecastTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,10 +176,6 @@
 				TargetAttributes = {
 					84AB45F31A3B3562003F1D64 = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					84AB460C1A3B3562003F1D64 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 84AB45F31A3B3562003F1D64;
 					};
 				};
 			};
@@ -235,7 +193,6 @@
 			projectRoot = "";
 			targets = (
 				84AB45F31A3B3562003F1D64 /* WheatherForecast */,
-				84AB460C1A3B3562003F1D64 /* WheatherForecastTests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,13 +205,6 @@
 				84AB46031A3B3562003F1D64 /* Main.storyboard in Resources */,
 				84AB46081A3B3562003F1D64 /* LaunchScreen.xib in Resources */,
 				84AB46051A3B3562003F1D64 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84AB460B1A3B3562003F1D64 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,23 +223,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84AB46091A3B3562003F1D64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84AB46141A3B3562003F1D64 /* LeftShiftTaskTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		84AB460F1A3B3562003F1D64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84AB45F31A3B3562003F1D64 /* WheatherForecast */;
-			targetProxy = 84AB460E1A3B3562003F1D64 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		84AB46011A3B3562003F1D64 /* Main.storyboard */ = {
@@ -415,40 +349,6 @@
 			};
 			name = Release;
 		};
-		84AB461B1A3B3562003F1D64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LeftShiftTaskTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = WheatherForecastTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftShiftTask.app/LeftShiftTask";
-			};
-			name = Debug;
-		};
-		84AB461C1A3B3562003F1D64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LeftShiftTaskTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = WheatherForecastTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftShiftTask.app/LeftShiftTask";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -466,15 +366,6 @@
 			buildConfigurations = (
 				84AB46181A3B3562003F1D64 /* Debug */,
 				84AB46191A3B3562003F1D64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84AB461A1A3B3562003F1D64 /* Build configuration list for PBXNativeTarget "WheatherForecastTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84AB461B1A3B3562003F1D64 /* Debug */,
-				84AB461C1A3B3562003F1D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
